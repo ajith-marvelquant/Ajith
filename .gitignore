@@ -3,3 +3,23 @@
 *.log
 node_modules/
 dist/
+
+# Large executable files that exceed GitHub's 100MB limit
+Tad.exe
+*.exe
+
+# Large application resources
+resources/app.asar
+*.asar
+
+# Large binary files
+*.dll
+*.pak
+
+# Large data files
+icudtl.dat
+snapshot_blob.bin
+v8_context_snapshot.bin
+
+# Lock files (optional - can be ignored if needed)
+package-lock.json
